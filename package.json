@@ -19,6 +19,7 @@
   "homepage": "https://github.com/chinami0420/HW11#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "iconv-lite": "^0.6.0"
+    "iconv-lite": "^0.6.0",
+    "uuid": "^8.2.0"
   }
 }
