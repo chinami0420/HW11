@@ -1,10 +1,10 @@
 const util = require("util");
 const fs = require("fs");
 
-var uuid = require('uuid');
-const uuidv1 = require('uuid/v1');
+// var uuid = require('uuid');
+// const uuidv1 = require('uuid/v1');
 
-console.log(uuid.v1());
+// console.log(uuid.v1());
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
